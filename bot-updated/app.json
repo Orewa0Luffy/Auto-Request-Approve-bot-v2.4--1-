@@ -1,0 +1,51 @@
+{.  
+    "name": "Rkn Auto Request Approove Bot",
+    "description": "Auto approove telegram group/channel join requests bot.",
+    "keywords": [
+        "Bot",
+        "Telegram ",
+        "Pyrogram "
+    ],
+    
+    "repository": "https://github.com/RknDeveloper/Rkn_Auto-Request-Approve-bot",
+    "logo":"https://graph.org/file/e846f9375e9d4f4975ce4.jpg",   
+    
+    "env": {
+    "API_ID": {
+      "description": "Enter your API_ID, get it from http://t.me/ApiScrapManBot",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Enter your API_HASH, get it from http://t.me/ApiScrapManBot",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Enter your Bot token, get it from @BotFather",
+      "required": true
+    }, 
+    "FORCE_SUB": {
+      "description": "Enter your Force Subscribe chat id.",
+      "required": "-1001819787652"
+    },
+    "LOG_CHANNEL": {
+      "description": "Enter your log channel id ",
+      "required": true
+    },
+    "DB_URL": {
+      "description": "Enter your mongodb url..",
+      "required": true
+    },
+    "DB_NAME": {
+      "description": "Enter your mongodb cluster name.",
+      "required": "Rkn_Auto_Aprove_Bot"
+    },
+    "ADMIN": {
+      "description": "Enter Bot Owners IDS",
+      "required": true}
+  },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
